@@ -112,9 +112,87 @@ li {
   transition: all 0.5s ease;
 }
 
-/*             Main             */
+/*             Top             */
 
+.top{
+  background: #FEFEFE;
+}
 
+.top__heading{
+  display: flex;
+  align-items:center;
+}
 
+.heading-top__title:not(:last-child){
+  margin-bottom: 2rem;
+}
+
+.heading-top__title{
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.8rem;
+  line-height: 121%;
+  text-align: center;
+}
+
+.heading-top__text:not(:last-child){
+  margin-bottom: 5rem;
+}
+
+.heading-top__text{
+  font-size: 2.4rem;
+  line-height: 117%;
+  text-align: center;
+  color: #181818;
+}
+
+.download:hover{
+  color: #181818;
+  background: #FEFEFE;
+
+}
+
+.download{
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FEFEFE;
+  background: #C5AC2D;
+  padding: 1.6rem 1.9rem 1.5rem 1.8rem;
+  transition: all .5s ease; 
+}
+
+.heading-top__txt{
+  font-family: 'Fira Sans';
+  font-weight: 500;
+  text-align: center;
+  color: #181818;
+}
+
+.bottom-top__text{
+  text-align: center;
+  /* фирменный */
+  color: #332208;
+}
+
+.bottom-top__left{
+  display: flex;
+  align-items:center;
+}
+
+.bottom-top__link:hover{
+  text-decoration: underline;
+}
+
+.bottom-top__link{
+  text-align: center;
+  color: #181818;
+  cursor: pointer;
+}
+
+.top__bottom{
+  display: flex;
+}
 
 /*             How             */
