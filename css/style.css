@@ -39,7 +39,7 @@ body {
   font-weight: 400;
   color: #1b1818;
   font-size: 1.6rem;
-  font-family: 'Roboto Condensed', sans-serif; 
+  font-family: "Roboto Condensed", sans-serif;
   /* font-family: 'Fira Sans', sans-serif; */
   /* font-family: 'Inter', sans-serif;*/
 }
@@ -86,7 +86,7 @@ li {
   background: #332208;
 }
 
-.header__container{
+.header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -98,12 +98,14 @@ li {
   gap: 3rem;
 }
 
-.menu__link:hover, .phone:hover {
+.menu__link:hover,
+.phone:hover {
   border-bottom: 1px solid #fefefe;
 }
 
-.menu__link, .phone {
-  color: #FEFEFE;
+.menu__link,
+.phone {
+  color: #fefefe;
   line-height: 116%;
   font-size: 1.8rem;
   text-transform: uppercase;
@@ -114,84 +116,93 @@ li {
 
 /*             Top             */
 
-.top{
-  background: #FEFEFE;
+.top {
+  background: #fefefe;
 }
 
-.top__heading{
+.top__heading {
   display: flex;
-  align-items:center;
+  padding: 6.3rem 0 3rem;
 }
 
-.heading-top__title:not(:last-child){
-  margin-bottom: 2rem;
+.heading-top__left {
+  text-align: center;
+  width: 50%;
+  padding-top: 7.5rem;
 }
 
-.heading-top__title{
-  font-family: 'Fira Sans';
-  font-style: normal;
+.heading-top__right {
+  width: 50%;
+}
+
+.heading-top__title:not(:last-child) {
+  margin: 0 auto 2rem;
+}
+
+.heading-top__title {
+  font-family: Fira Sans;
   font-weight: 500;
   font-size: 4.8rem;
   line-height: 121%;
-  text-align: center;
+  max-width: 45.5rem;
 }
 
-.heading-top__text:not(:last-child){
-  margin-bottom: 5rem;
+.heading-top__text:not(:last-child) {
+  margin: 0 auto 5rem;
 }
 
-.heading-top__text{
+.heading-top__text {
   font-size: 2.4rem;
   line-height: 117%;
-  text-align: center;
+  max-width: 54rem;
   color: #181818;
 }
 
-.download:hover{
-  color: #181818;
-  background: #FEFEFE;
-
+.download:hover {
+  color: #c5ac2d;
+  background: #fefefe;
+  border: 1px solid #c5ac2d;
 }
 
-.download{
+.download {
   cursor: pointer;
-  text-align: center;
   text-transform: uppercase;
-  color: #FEFEFE;
-  background: #C5AC2D;
+  color: #fefefe;
+  background: #c5ac2d;
+  border: 1px solid transparent;
   padding: 1.6rem 1.9rem 1.5rem 1.8rem;
-  transition: all .5s ease; 
+  transition: all 0.7s ease;
 }
 
-.heading-top__txt{
-  font-family: 'Fira Sans';
+.heading-top__txt {
+  font-family: "Fira Sans";
   font-weight: 500;
   text-align: center;
   color: #181818;
 }
 
-.bottom-top__text{
+.bottom-top__text {
   text-align: center;
   /* фирменный */
   color: #332208;
 }
 
-.bottom-top__left{
+.bottom-top__left {
   display: flex;
-  align-items:center;
+  align-items: center;
 }
 
-.bottom-top__link:hover{
+.bottom-top__link:hover {
   text-decoration: underline;
 }
 
-.bottom-top__link{
+.bottom-top__link {
   text-align: center;
   color: #181818;
   cursor: pointer;
 }
 
-.top__bottom{
+.top__bottom {
   display: flex;
 }
 
