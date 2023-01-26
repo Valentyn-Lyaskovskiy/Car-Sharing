@@ -206,22 +206,34 @@ li {
   display: flex;
 }
 
-.swiper-pagination {
-  display: flex;
-  align-items: center;
+.swiper{
+  position: relative;
 }
 
-.swiper-pagination .swiper-pagination-bullet {
+.swiper-pagination-bullets{
+  position: absolute;
+  top: 0;
+  transform: translate(48%, 41%);
+}
+
+.swiper-pagination {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.swiper-pagination-bullet-active.swiper-pagination-bullet {
+  width: 1.6rem;
+  height: 1.6rem;
+}
+
+.swiper-pagination-bullet {
   border-radius: 50%;
   background: #332208;
   width: 0.8rem;
   height: 0.8rem;
+  opacity: 1;
 }
 
-swiper-pagination-bullet-active {
-  background: #332208;
-  border-radius: 50%;
-  width: 1.6rem;
-  height: 1.6rem;
-}
 /*             How             */
