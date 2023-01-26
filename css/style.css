@@ -206,4 +206,22 @@ li {
   display: flex;
 }
 
+.swiper-pagination {
+  display: flex;
+  align-items: center;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+  border-radius: 50%;
+  background: #332208;
+  width: 0.8rem;
+  height: 0.8rem;
+}
+
+swiper-pagination-bullet-active {
+  background: #332208;
+  border-radius: 50%;
+  width: 1.6rem;
+  height: 1.6rem;
+}
 /*             How             */
