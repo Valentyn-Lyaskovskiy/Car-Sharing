@@ -520,3 +520,9 @@ li {
 }
 
 /*             Bottom            */
+
+.reviews {
+  background: #332208;
+  color: #fff;
+  padding: 10rem 0;
+}
