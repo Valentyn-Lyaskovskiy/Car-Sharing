@@ -535,6 +535,7 @@ li {
   max-width: 27rem;
   border: 1px solid #c5ca2d;
   padding: 4.4rem 3.1rem 4.3rem;
+  margin-bottom: 3.7rem;
 }
 
 .reviews__title:not(:last-child) {
@@ -558,13 +559,13 @@ li {
 }
 
 .swiper__pagination-reviews.swiper-pagination-bullet {
-  z-index: 22;
+}
+
+.swiper__pagination-reviews {
   border-radius: 50%;
   width: 0.8rem;
   height: 0.8rem;
   opacity: 1;
   background: #c5ac2d;
-}
-
-.swiper__pagination-reviews {
+  gap: 1rem;
 }
