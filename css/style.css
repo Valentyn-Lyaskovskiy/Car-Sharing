@@ -173,6 +173,7 @@ li {
   border: 1px solid transparent;
   padding: 1.6rem 1.9rem 1.5rem 1.8rem;
   transition: all 0.5s ease;
+  width: 21.1rem;
   display: inline-block;
 }
 
@@ -312,6 +313,13 @@ li {
 
 .rent__heading {
   max-width: 30rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.rent__link {
+  text-align: center;
+  margin-top: auto;
 }
 
 .heading-top__title_h2:not(:last-child) {
@@ -326,10 +334,6 @@ li {
 
 /* .heading-top__text-rent:not(:last-child){
   margin: 0 0 2.5rem 0;
-} */
-
-/* .rent__link{
-  margin-top: 2rem;
 } */
 
 .heading-top__text-rent {
@@ -531,7 +535,7 @@ li {
   /* max-width: 27rem; */
   min-height: 30rem;
   border: 1px solid #c5ca2d;
-  padding: 4.4rem 3.1rem;
+  padding: 4.4rem 2rem;
   display: flex;
   flex-direction: column;
 }
@@ -587,18 +591,23 @@ li {
 .qst__wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
-.qst__h3 {
+/* .qst__h3 {
   margin-top: 7rem;
-}
+} */
 
 .qst__h3:not(:last-child) {
   margin-bottom: 0.5rem;
 }
 
+.qst__text:not(:last-child) {
+  margin-bottom: 3rem;
+}
+
 .qst__form:not(:last-child) {
-  margin-bottom: 5rem;
+  margin-bottom: 6.5rem;
 }
 
 .qst__btn {
@@ -606,4 +615,25 @@ li {
   font-weight: 400;
   font-size: 1.6rem;
   font-family: "Roboto Condensed", sans-serif;
+}
+
+.qst__inp-name:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.qst__inp-name::placeholder,
+.qst__inp-tel::placeholder {
+  line-height: 119%;
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #000;
+}
+
+.qst__inp-name,
+.qst__inp-tel {
+  padding: 2rem 1rem;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  width: 100%;
 }
