@@ -9,11 +9,12 @@ const swiper = new Swiper(".heading-top__right", {
   },
 });
 
-const swiper2 = new Swiper(".swiper__reviews", {
-  // Optional parameters
+const swiper2 = new Swiper(".mySwiper", {
+  slidesPerView: 4,
+  spaceBetween: 30,
+  slidesPerGroup: 1,
   loop: true,
-
-  // If we need pagination
+  loopFillGroupWithBlank: false,
   pagination: {
     el: ".swiper-pagination",
   },
