@@ -577,3 +577,33 @@ li {
   width: 1.6rem;
   height: 1.6rem;
 } 
+
+/*   QST    */
+
+.qst{
+  padding: 10rem 0;
+}
+
+.qst__wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.qst__h3{
+  margin-top: 7rem;
+}
+
+.qst__h3:not(:last-child){
+  margin-bottom: 0.5rem;
+}
+
+.qst__form:not(:last-child){
+  margin-bottom: 5rem;
+}
+
+.qst__btn{
+  line-height: 119%;
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-family: "Roboto Condensed", sans-serif;
+}
