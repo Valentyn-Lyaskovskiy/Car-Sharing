@@ -19,3 +19,9 @@ const swiper2 = new Swiper(".mySwiper", {
     el: ".swiper-pagination",
   },
 });
+
+const burger = document.querySelector(".menu__btn");
+const menu = document.querySelector(".menu__list");
+burger.addEventListener("click", function () {
+  menu.classList.toggle("menu__list_active");
+});
