@@ -667,7 +667,15 @@ li {
 @media (max-width: 76.25rem){
   .top__heading{
     display: block;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
+  }
+
+  .heading-top__right {
+    width: 100%;
+  }
+
+  .swiper-pagination.swiper-pagination-bullets{
+    width: 100%;
   }
 
   .heading-top__left {
@@ -680,7 +688,6 @@ li {
   }
 
   .bottom-top__left{
-    text-align: center;
     width: 100%;
     margin-bottom: 10rem;
   }
@@ -736,6 +743,18 @@ li {
   
   .menu{
     order: 1;
+  }
+}
+
+/* 630px/16px */
+@media (max-width: 39.375em){ 
+  .bottom-top__left{
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .bottom-top__item{
+    width: 75%;
   }
 }
   
