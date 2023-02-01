@@ -664,10 +664,35 @@ li {
 
 /*    @Media   */
 
+@media (max-width: 76.25rem){
+  .top__heading{
+    display: block;
+    padding-bottom: 10rem;
+  }
+
+  .heading-top__left {
+    width: 100%;
+    padding: 0;
+  }
+
+  .top__bottom {
+    display: block;
+  }
+
+  .bottom-top__left{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10rem;
+  }
+
+  .bottom-top__right{
+    width: 100%;
+  }
+}
 @media (max-width: 53.75em){
   .menu__list{
-    /* display: block; */
     position: absolute;
+    display: block;
     background-color: #332208;
     left: 0;
     right: 0;
@@ -675,6 +700,11 @@ li {
     text-align: center;
     /* height: 100vh; */
     transform: translateY(-50rem);
+    transition: all .5s ease;
+  }
+
+  .menu__list.menu__list_active{
+    transform: translateY(0);
   }
   
   .menu__link{
