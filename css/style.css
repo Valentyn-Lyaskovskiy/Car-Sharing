@@ -753,6 +753,12 @@ li {
     gap: 3rem;
   }
 
+  .bottom-top__link{
+    display: block;
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+  
   .bottom-top__item{
     width: 75%;
   }
