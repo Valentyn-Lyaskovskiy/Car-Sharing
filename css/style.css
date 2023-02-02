@@ -535,15 +535,11 @@ li {
 
 .mySwiper .swiper-slide {
   /* max-width: 27rem; */
-  min-height: 30rem;
+  min-height: 25rem;
   border: 1px solid #c5ca2d;
   padding: 4.4rem 2rem;
   display: flex;
   flex-direction: column;
-}
-
-.reviews__title:not(:last-child) {
-  margin-bottom: 5.1rem;
 }
 
 .reviews__title {
