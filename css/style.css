@@ -682,10 +682,6 @@ li {
     width: 100%;
   }
 
-  .swiper-pagination.swiper-pagination-bullets {
-    width: 90%;
-  }
-
   .heading-top__left {
     width: 100%;
     padding: 0;
@@ -767,10 +763,6 @@ li {
   .rent__inner {
     display: block;
   }
-
-  .swiper-pagination.swiper-pagination-bullets {
-    width: 80%;
-  }
 }
 
 @media (max-width: 53.75em) {
@@ -824,10 +816,6 @@ li {
 
   .advantages__img {
     width: 80%;
-  }
-
-  .swiper-pagination.swiper-pagination-bullets {
-    width: 60%;
   }
 }
 
