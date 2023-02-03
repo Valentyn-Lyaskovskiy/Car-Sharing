@@ -395,7 +395,10 @@ li {
 }
 
 .rent__right-item {
-  max-width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  min-width: 25rem;
   text-align: center;
   border: 1px solid #332208;
   box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
@@ -664,14 +667,14 @@ li {
 /*1307px/16 */
 @media (max-width: 81.6875em) {
   .reviews {
-    padding: 10rem 1rem;
+    padding: 4rem 2rem;
   }
 }
 
 @media (max-width: 76.25em) {
   .top__heading {
     display: block;
-    padding-bottom: 5rem;
+    padding: 1rem 0 5rem;
   }
 
   .heading-top__right {
@@ -713,6 +716,25 @@ li {
   .advantages__list {
     margin-bottom: 3rem;
   }
+
+  .rent{
+    padding-bottom: 0;
+    padding-top: 5rem;
+  }
+
+  .rent__inner{
+    flex-direction: column;
+  }
+
+  .rent__heading {
+    max-width: 100%;
+  }
+
+  .rent__right-item{
+    width: 50%;
+    justify-content: center;
+    margin: 3rem auto;
+  }
 }
 
 /* 1126px/16 */
@@ -727,20 +749,8 @@ li {
     padding: 0;
   }
 
-  .rent__heading,
-  .rent__right-item,
-  .heading-top__text-rent,
-  .rent__text_1,
-  .rent__text_2,
-  .rent__text_3 {
-    margin-bottom: 3rem;
-    max-width: 100%;
-    text-align: center;
-    display: block;
-  }
-
   .rent__link {
-    margin-bottom: 3rem;
+    margin-bottom: 0;
   }
 
   .heading-top__title_h2 {
@@ -756,8 +766,15 @@ li {
     margin-bottom: 8rem;
   }
 
-  .rent__inner {
-    display: block;
+  .qst__wrapper{
+    flex-direction: column-reverse;
+  }
+
+  .qst__img{
+    margin-top: 6rem;
+  }
+  .qst{
+    padding: 3rem 0;
   }
 }
 
@@ -768,7 +785,7 @@ li {
     background-color: #332208;
     left: 0;
     right: 0;
-    top: 10rem;
+    top: 2rem;
     text-align: center;
     height: 100vh;
     transform: translateY(-50rem);
@@ -813,10 +830,31 @@ li {
   .advantages__img {
     width: 80%;
   }
+
+  .footer__top{
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer__top:not(:last-child) {
+     margin-bottom: 0;
+  }
+
+  .footer{
+    padding: 2rem 0;
+  }
 }
 
 /* 630px/16px */
 @media (max-width: 39.375em) {
+  .swiper-pagination{
+    display: none;
+  }
+
+  .heading-top__img{
+    width: 100%;
+  }
+
   .bottom-top__left {
     flex-direction: column;
     gap: 3rem;
@@ -838,11 +876,15 @@ li {
   .bottom-top__item {
     width: 75%;
   }
+
+  .qst__img{
+    width: 100%;
+  }
 }
 
 @media (max-width: 35.375em) {
   .advantages {
-    padding: 8.4rem 0 4.6rem;
+    padding: 4.4rem 0 4.6rem;
   }
 
   .advantages__img {
@@ -850,7 +892,7 @@ li {
   }
 
   .advantages__h3:not(:last-child) {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
   }
 
   .advantages__list-item::after {
