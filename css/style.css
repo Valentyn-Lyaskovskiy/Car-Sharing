@@ -851,6 +851,10 @@ li {
     display: none;
   }
 
+  .swiper-pagination.swiper-reviews{
+    display: flex;
+  }
+
   .heading-top__img{
     width: 100%;
   }
@@ -910,5 +914,17 @@ li {
 
   .pagination.swiper-pagination-bullets {
     margin: 20px 0 0 -120px;
+  }
+
+  .header__container{
+    min-height: 9.2rem;
+  }
+
+  .heading-top__text:not(:last-child) {
+    margin: 0 auto 2rem;
+  }
+
+  .heading-top__txt2{
+    padding-right: 0;
   }
 }
