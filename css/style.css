@@ -925,6 +925,13 @@ li {
   }
 
   .heading-top__txt2{
-    padding-right: 0;
+    padding-right: 7rem;
   }
 }
+
+@media (max-width: 25em) {
+  .heading-top__txt2{
+    padding-right: 1.5rem;
+  }
+}
+
